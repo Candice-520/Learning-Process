@@ -1,0 +1,22 @@
+#include <iostream>
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main()
+{
+	int a = rand() % 100 + 1;
+	int b = 0;
+	cout << "请输入一个1到100的整数：" << endl;
+	while (b!=a)
+	{
+		cin >> b;
+		if (b > a)
+			cout << "您猜大了，请重新猜" << endl;
+		if (b < a)
+			cout << "您猜小了，请重新猜" << endl;
+	}
+	cout << "恭喜您，猜对了！" << endl;
+	
+	system("pause");
+	return 0;
