@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+cout << "乘法口诀表为：" << endl;
+for (int i = 1;i < 10;i++)
+{
+	for (int j = 1;j < 10;j++)
+	{
+		if (i >=j)
+			cout << i << "*" << j << "=" << i * j <<"  ";
+	}
+	cout << endl;
+}
+system("pause");
+return 0;
+}
