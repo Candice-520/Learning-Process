@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\change.obj",
+            "outputs": [
+                "x64\\Debug\\change.h_1C1C2DB784F04E6D.ifc.dt.module.json",
+                "x64\\Debug\\change.h_1C1C2DB784F04E6D.ifc.dt.d.json",
+                "x64\\Debug\\change.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\VisualStudio\\C++入门\\C++入门\\指针数组函数综合\\change.h",
+                    "source-path": "d:\\visualstudio\\c++入门\\c++入门\\指针数组函数综合\\change.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

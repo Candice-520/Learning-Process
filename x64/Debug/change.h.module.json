@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Debug\\change.h.obj",
+            "outputs": [
+                "D:\\VisualStudio\\C++入门\\C++入门\\指针数组函数综合\\x64\\Debug\\vc145.pdb",
+                "x64\\Debug\\",
+                "D:\\VisualStudio\\C++入门\\C++入门\\指针数组函数综合\\x64\\Debug\\change.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "change.h",
+                    "source-path": "d:\\visualstudio\\c++入门\\c++入门\\指针数组函数综合\\change.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
