@@ -1,0 +1,29 @@
+#include<iostream>
+
+bool isEven(int a)
+{
+	if (a % 2 == 0)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+int main()
+{
+	int num1 = 6;
+	bool result = isEven(num1);
+	if(result==true)
+	{
+		std::cout << "Test pass!result:" << result << std::endl;
+	}
+	else
+	{
+		std::cout << "Test fail!result:" << result << std::endl;
+	}
+
+	return 0;
+}
